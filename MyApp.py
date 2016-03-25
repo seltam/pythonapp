@@ -4,7 +4,6 @@ if __name__ == "__main__":
 else:
     raise Exception("This file was not created to be imported")
 
-#-- Data --#
 # declare variables and constants
 objE = None #an Employee object
 intId = 0 #an EmployeeId
@@ -13,8 +12,8 @@ strFirstName = "" #an Employee's first name
 strLastName = "" #an Employee's last name
 strInput = "" #temporary user input
 
-#-- Processing --#
-#perform tasks
+
+#perform tasks as below
 def ProcessNewEmployeeData(Id, FirstName, LastName):
     try:
         #Create Employee object
